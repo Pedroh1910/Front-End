@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quartos - Med Lab</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <div id="cards"></div>
+    
+    <form action="" id="quartoform">
+        <h1>Cadastro de Quartos</h1>
+        
+        <div class="tipo">
+            <label for="tipoInput">Tipo do Quarto</label>
+            <input type="text" id="tipoInput" name="Tipo" required>
+        </div>
+
+        <div class="preco">
+            <label for="precoInput">Preço da Diária</label>
+            <input type="number" id="precoInput" name="preco" required>
+        </div>
+
+        <div class="campo-select">
+            <label for="hotel">Hotel</label>
+            <select name="hotel" id="hotel" required>
+                <option value="">Selecione o Hotel. . .</option>
+            </select>
+        </div>
+
+        <button type="submit">Cadastrar Quarto</button>
+    </form>
+
+    <script src="./script2.js"></script>
+</body>
+</html>
